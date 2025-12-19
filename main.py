@@ -4,10 +4,10 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, ReplyKe
 from telegram.ext import Application, ChatJoinRequestHandler, MessageHandler, filters, ContextTypes, CallbackQueryHandler, CommandHandler
 
 # --- KONFIGURASI (Mengambil dari Railway Environment Variables) ---
-TOKEN = os.getenv('BOT_TOKEN')
-ADMIN_ID = int(os.getenv('ADMIN_ID', '0'))
-GROUP_CHAT_ID = int(os.getenv('GROUP_ID', '0'))
-YT_LINK = os.getenv('YT_LINK', 'https://youtube.com')
+TOKEN = os.getenv('8370842756:AAEbjHtrnZNPnduqGNl-mTyuVmE8iuNB4fE')
+ADMIN_ID = int(os.getenv('ADMIN_ID', '7655136272'))
+GROUP_CHAT_ID = int(os.getenv('GROUP_ID', '-1003649901491'))
+YT_LINK = os.getenv('YT_LINK', 'https://www.youtube.com/channel/UCePnGN0-MkIt_dNjm1viwug')
 
 # Setup Logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
